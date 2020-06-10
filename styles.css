@@ -1,0 +1,79 @@
+/****************************TAG SELECTORS******************************/
+
+body {
+  text-align: center;
+  background-color: #FEF2BF;
+}
+
+p {
+  font-family: 'moonflowerbold';
+  /* font-family: 'Press Start 2P', cursive; */
+  font-size: 2rem;
+  color: #011F3F;
+}
+
+/****************************CLASS SELECTORS*****************************/
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: #FF6961;
+}
+
+.green {
+  background-color: #77DD77;
+}
+
+.blue {
+  background-color: #7EA4B3;
+}
+
+.yellow {
+  background-color: #FDFD96;
+}
+
+.pressed {
+  box-shadow: 0 0 20px grey;
+  background-color: white;
+}
+
+.bottom-margin {
+  margin: 5%;
+}
+
+/****************************ID SELECTORS*******************************/
+
+#level-title {
+  font-family: 'moonflowerbold';
+  /* font-family: 'Press Start 2P', cursive; */
+  font-size: 10rem;
+  margin:  5% 5% 0%;
+  color: #011F3F;
+  text-shadow: 3px 0 grey;
+}
+
+/*******************************FONTS**********************************/
+
+@font-face {
+  font-family: 'moonflowerbold';
+  src: url(fonts/MoonFlowerBold.ttf);
+}
